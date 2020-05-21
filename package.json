@@ -1,0 +1,26 @@
+{
+  "name": "busca-time-backend",
+  "version": "1.0.0",
+  "author": "Renan Campos Ribeiro",
+  "main": "index.js",
+  "repository": "gitlab.com/RenanC4/busca-time-back",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --inspect src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.9.0",
+    "prettier": "^1.19.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.1"
+  }
+}

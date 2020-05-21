@@ -1,0 +1,13 @@
+.vscode/
+README.md
+build.sh
+jsconfig.json
+node_modules/
+run.sh
+task-def.json
+
+#Locks
+yarn.lock
+
+# Dependency directories
+node_modules/
